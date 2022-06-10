@@ -1,0 +1,17 @@
+api:lint: cache hit, replaying output [2m113d2a4c7e17320e[0m
+[32mapi:lint: [0m
+[32mapi:lint: [0m> api@0.0.0 lint
+[32mapi:lint: [0m> tsc --noEmit && TIMING=1 eslint src/**/*.ts* --fix
+[32mapi:lint: [0m
+[32mapi:lint: [0mRule                          | Time (ms) | Relative
+[32mapi:lint: [0m:-----------------------------|----------:|--------:
+[32mapi:lint: [0mno-unused-vars                |     0.772 |    18.9%
+[32mapi:lint: [0mno-mixed-spaces-and-tabs      |     0.400 |     9.8%
+[32mapi:lint: [0mno-unexpected-multiline       |     0.278 |     6.8%
+[32mapi:lint: [0mno-dupe-keys                  |     0.264 |     6.5%
+[32mapi:lint: [0mno-useless-escape             |     0.258 |     6.3%
+[32mapi:lint: [0mgetter-return                 |     0.258 |     6.3%
+[32mapi:lint: [0mno-redeclare                  |     0.212 |     5.2%
+[32mapi:lint: [0mno-empty-character-class      |     0.191 |     4.7%
+[32mapi:lint: [0mno-misleading-character-class |     0.178 |     4.4%
+[32mapi:lint: [0mconstructor-super             |     0.168 |     4.1%

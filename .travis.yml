@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - 14.18.2
+jobs:
+  include:
+    name: "Run PR checks"
+    script:
+      - pwd
+      - ls -la

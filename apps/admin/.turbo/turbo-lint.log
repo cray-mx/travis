@@ -1,0 +1,24 @@
+admin:lint: cache hit, replaying output [2me5950fa30d079b9f[0m
+[34madmin:lint: [0m
+[34madmin:lint: [0m> admin@0.0.0 lint
+[34madmin:lint: [0m> tsc --noEmit && TIMING=1 eslint src/**/*.ts* --fix
+[34madmin:lint: [0m
+[34madmin:lint: [0mPages directory cannot be found at /Users/rayaan/Documents/travis/kitchen-sink/apps/admin/pages or /Users/rayaan/Documents/travis/kitchen-sink/apps/admin/src/pages. If using a custom path, please configure with the no-html-link-for-pages rule in your eslint config file
+[34madmin:lint: [0m
+[34madmin:lint: [0m/Users/rayaan/Documents/travis/kitchen-sink/apps/admin/src/App.tsx
+[34madmin:lint: [0m  10:9  warning  Do not use <img>. Use Image from 'next/image' instead. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+[34madmin:lint: [0m
+[34madmin:lint: [0m✖ 1 problem (0 errors, 1 warning)
+[34madmin:lint: [0m
+[34madmin:lint: [0mRule                              | Time (ms) | Relative
+[34madmin:lint: [0m:---------------------------------|----------:|--------:
+[34madmin:lint: [0mreact/no-unknown-property         |     7.513 |    51.6%
+[34madmin:lint: [0mreact/display-name                |     1.399 |     9.6%
+[34madmin:lint: [0mreact/jsx-no-comment-textnodes    |     0.535 |     3.7%
+[34madmin:lint: [0mreact-hooks/rules-of-hooks        |     0.477 |     3.3%
+[34madmin:lint: [0mreact/require-render-return       |     0.438 |     3.0%
+[34madmin:lint: [0mreact/jsx-no-target-blank         |     0.381 |     2.6%
+[34madmin:lint: [0mreact/no-danger-with-children     |     0.356 |     2.4%
+[34madmin:lint: [0mreact/no-unescaped-entities       |     0.341 |     2.3%
+[34madmin:lint: [0mjsx-a11y/role-supports-aria-props |     0.335 |     2.3%
+[34madmin:lint: [0m@next/next/no-img-element         |     0.298 |     2.0%

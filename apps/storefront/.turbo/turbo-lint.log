@@ -1,0 +1,8 @@
+storefront:lint: cache hit, replaying output [2m7d9a6dd7a3523291[0m
+[36mstorefront:lint: [0m
+[36mstorefront:lint: [0m> storefront@0.0.0 lint
+[36mstorefront:lint: [0m> TIMING=1 next lint
+[36mstorefront:lint: [0m
+[36mstorefront:lint: [0m✔ No ESLint warnings or errors
+[36mstorefront:lint: [0mRule | Time (ms) | Relative
+[36mstorefront:lint: [0m:----|----------:|--------:

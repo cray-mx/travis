@@ -1,0 +1,18 @@
+ui:lint: cache hit, replaying output [2m68a875e98bf3be0f[0m
+[35mui:lint: [0m
+[35mui:lint: [0m> ui@0.0.0 lint
+[35mui:lint: [0m> TIMING=1 eslint src/**/*.ts* --fix
+[35mui:lint: [0m
+[35mui:lint: [0mPages directory cannot be found at /Users/rayaan/Documents/travis/kitchen-sink/packages/ui/pages or /Users/rayaan/Documents/travis/kitchen-sink/packages/ui/src/pages. If using a custom path, please configure with the no-html-link-for-pages rule in your eslint config file
+[35mui:lint: [0mRule                              | Time (ms) | Relative
+[35mui:lint: [0m:---------------------------------|----------:|--------:
+[35mui:lint: [0mreact/display-name                |     1.172 |    27.7%
+[35mui:lint: [0mreact-hooks/rules-of-hooks        |     0.395 |     9.3%
+[35mui:lint: [0mreact/jsx-no-comment-textnodes    |     0.279 |     6.6%
+[35mui:lint: [0mreact/no-direct-mutation-state    |     0.246 |     5.8%
+[35mui:lint: [0mreact/no-children-prop            |     0.224 |     5.3%
+[35mui:lint: [0mreact/no-deprecated               |     0.157 |     3.7%
+[35mui:lint: [0mreact/no-render-return-value      |     0.138 |     3.3%
+[35mui:lint: [0mreact-hooks/exhaustive-deps       |     0.134 |     3.2%
+[35mui:lint: [0mjsx-a11y/role-supports-aria-props |     0.134 |     3.2%
+[35mui:lint: [0mreact/require-render-return       |     0.121 |     2.8%

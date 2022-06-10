@@ -1,0 +1,18 @@
+ui:build: cache hit, replaying output [2m4f7b424ab0f39834[0m
+[35mui:build: [0m
+[35mui:build: [0m> ui@0.0.0 build
+[35mui:build: [0m> tsup src/index.tsx --format esm,cjs --dts --external react
+[35mui:build: [0m
+[35mui:build: [0mCLI Building entry: src/index.tsx
+[35mui:build: [0mCLI Using tsconfig: tsconfig.json
+[35mui:build: [0mCLI tsup v5.12.9
+[35mui:build: [0mCLI Target: node12
+[35mui:build: [0mCJS Build start
+[35mui:build: [0mESM Build start
+[35mui:build: [0mCJS ⚡️ Build success in 83ms
+[35mui:build: [0mESM ⚡️ Build success in 70ms
+[35mui:build: [0mCJS dist/index.js 3.31 KB
+[35mui:build: [0mESM dist/index.mjs 2.06 KB
+[35mui:build: [0mDTS Build start
+[35mui:build: [0mDTS ⚡️ Build success in 2733ms
+[35mui:build: [0mDTS dist/index.d.ts 248.00 B
